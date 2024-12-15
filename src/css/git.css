@@ -1,0 +1,197 @@
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'poppins-bold-italic';
+  src: url('../assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+}
+
+#section4 {
+    padding-bottom: 100px;
+    background-image:url('../assets/wallpaperR.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .getintouch-container {
+    background-color: #ffffff;
+    width: 800px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .contact-us-wallpaper {
+    width: 100%;
+}
+
+h1{
+    margin: none;
+    padding: none;
+}
+
+.gitSection {
+  position: relative;
+  width: 90%;
+  max-width: 1200px; /* Add a max width for better responsiveness */
+  margin: 0 auto; /* Center the section horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; /* Ensure all content is centered */
+}
+
+.git-title {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.2; /* Adjusted to avoid overlap */
+  width: 100%; /* Full width inside centered section */
+  max-width: 800px; /* Ensure title doesn't go too wide */
+  font-family: 'Poppins-Bold-Italic', sans-serif;
+  color: #2980b9;
+  margin: none;
+  position: relative;
+  height: 220px;
+}
+.git-title > h1 {
+  line-height:0.9 ;
+}
+
+.gitDesc {
+  color: #2980b9;
+  text-align: center; /* Center the text */
+  max-width: 800px; /* Limit width for readability */
+  font-family: 'Poppins-Bold-Italic', sans-serif;
+}
+
+.git-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensure buttons are centered */
+    position: relative;
+}
+
+.git-btns button{
+  position: relative;
+  max-width: 600px; /* Limit width for buttons */
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.ct-button {
+    width: 100%;
+    position: absolute;
+
+    align-items: center;
+}
+
+
+.ct-button {
+    position: absolute;
+    z-index: 100;
+    bottom: 10%;
+  }
+  
+  
+  .ct-button {
+    padding: 8px 16px;
+    border: none;
+    z-index: 10;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'poppins-BoldItalic';
+    transition: 0.7s;
+  }
+
+  .b1{
+    background-color: #01df82; 
+    color: #00604a;
+  }
+
+  .b2{
+    background-color: #f8fafb; 
+    color: #2980b9;
+  }
+
+  .b3{
+    background-color:#2980b9 ; 
+    color: #f2f5f8;
+  }
+  
+    .b1:hover {
+    color: #01df82;
+    background-color: #2980b9; /* Darker shade on hover */
+    transition: 0.7s;
+  }
+
+  .b2:hover {
+    color: #fff;
+    background-color: #2980b9; /* Darker shade on hover */
+    transition: 0.7s;
+  
+  }
+
+  .b3:hover {
+    color: #2980b9;
+    background-color: #fff; /* Darker shade on hover */
+    transition: 0.7s;
+  
+  }
+
+  @media screen and (max-width:430px) {
+
+    #section4 {
+      margin-top: 300px;
+    }
+
+
+    .getintouch-container {
+      width: 90%;
+    }
+
+    .git-title{
+      font-size: 2.4rem;
+      /* color: #01df82; */
+      height:180px;
+    }
+
+    .gitDesc {
+      margin-top: 50px;
+      margin-bottom: 35px;
+      font-size: smaller;
+    }
+
+  }
+
+  @media screen and (max-width:375px) {
+    .b3{
+      font-size: medium;
+      /* color: #01df82; */
+      height:150px;
+    }
+
+  }
+
+  @media screen and (max-width:320px) {
+    .git-title{
+      font-size: 2rem;
+      /* color: #01df82; */
+      height:150px;
+    }
+
+  }

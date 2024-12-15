@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'poppins-medium-italic';
+  src: url('../assets/fonts/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'poppins-bold-italic';
+  src: url('../assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'poppins-Semibold-italic';
+  src: url('../assets/fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'Russo';
+  src: url('../assets/fonts/Russo_One.ttf') format('truetype');
+  font-weight: normal;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    background-color: #f6f7f9;
+}
+
+.LocationSection {
+    height:1000px;
+    overflow: hidden;
+  }
+
+body, html {
+    overflow-x: hidden;
+  }
+
+.top-right-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+}
+
+.top-right-logo img {
+  width: 100%; /* Ensures the image scales with the container */
+  height: auto;
+  transition: transform 0.3s ease;
+  position: relative;
+  opacity: 0.7;
+}
+
+
+.top-right-logo img:hover {
+  transform: scale(1.01); /* Slight zoom effect on hover */
+}
+
+@media screen and (max-width: 430px){
+
+  body{
+    overflow-x: hidden;
+  }
+  .LocationSection {
+    height:1500px
+  }
+
+  .top-right-logo {
+    position: fixed;
+    top: 20px;
+    right: -20px;
+    z-index: 1000;
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+  }
+
+  .top-right-logo img {
+    width: 80%; /* Ensures the image scales with the container */
+  }
+}
